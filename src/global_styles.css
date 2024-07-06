@@ -1,0 +1,43 @@
+/* Add application styles & imports to this file! */
+
+select {
+  padding: 12px;
+  border-radius: 8px;
+  width: 320px;
+  margin-bottom: 32px;
+}
+
+.item-selected {
+  text-align: center;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: bisque;
+  margin-bottom: 4px;
+  cursor: pointer;
+  max-width: 400px;
+}
+
+.item-selected:hover {
+  background-color: rgb(241, 209, 159);
+}
+
+.item-loading {
+  text-align: center;
+  padding: 12px;
+  border: 1px solid black;
+  color: white;
+  border-radius: 8px;
+  background-color: rgb(115, 163, 134);
+  margin-bottom: 4px;
+  max-width: 400px;
+}
+
+.remove {
+  max-width: 400px;
+  margin-top: 24px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
